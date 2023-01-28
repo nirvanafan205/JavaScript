@@ -36,3 +36,37 @@
 
     The Object-oriented paradigm aims is to let us achieve these three goals
 */
+
+//If storing each user in an app with their respective data
+
+/*
+    User1:          User2:
+    name: 'Tim'     name: 'Stephanie'
+    score: 3        score: 5
+
+    And the functionality I need to have for each user
+        Increment functionality
+
+    How to store data and functionality together in one place
+*/
+
+//Objects- store functions with their associated data!
+
+const user1 = {
+    name: "Will",
+    score: 3,
+    increment: function { user1.score++;}
+};
+
+user1.increment(); //user.1score -> 4
+
+//creating user2 user dot notation
+//declare an empty object and add properties with dot notation
+
+const user2 = {};
+
+user2.name = "Tim";
+user1.score = 6;
+user2.increment = function() {
+    user12.score++;
+};
