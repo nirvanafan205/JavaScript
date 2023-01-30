@@ -126,3 +126,12 @@ class UserCreator {
 
 const user5 = new UserCreator("Eva", 9);
 user5.increment();
+
+/*
+  Solution 4: The class 'syntatic sugar'
+
+  Benefits:
+    Emerging as a new stanard
+
+    Feels more like style of other languages
+*/
